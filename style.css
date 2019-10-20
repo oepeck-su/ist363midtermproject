@@ -1,0 +1,153 @@
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: flex-end;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #fff;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255,255,255);
+}
+
+.header-bg{
+    background-image: url(images/action-adventure-alps-238622.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
+.header-book{
+    background-image: url(images/architecture-buildings-church-338515.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.display-4{
+    background-color: rgba(255, 255, 255, .7);
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 20px;
+    border-radius: 1em;
+    font-size: 3em;
+}
+
+.display-4:hover{
+    background-color: rgba(255, 255, 255, .99);
+}
+
+@media (max-width: 679px) {
+    .header-bg{
+        background-image: url(images/beautiful-cliff-clouds-1659438.jpg);
+    }
+    .header-book{
+        background-image: url(images/architecture-art-blue-699466.jpg);
+    }
+    .display-4{
+        background-color: rgba(255, 255, 255, .5);
+        font-family: 'Raleway', sans-serif;
+        padding: 0px 20px;
+        border-radius: 1em;
+        font-size: 2em;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00998C;
+    border-color: #00998C;
+}
+
+
+.btn-primary:hover{
+    background-color: #006F66;
+    border-color: #006F66;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #006F66;
+
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card{
+    margin: 20px 0px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 1px grey;
+}
+
+.blogbody{
+    margin-top: 20px;
+}
+
+
+.sidebar{
+    background-color: #006F66;
+    height: 300px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sidebarTitle{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.sidebarList{
+    padding-right: 5px;
+    
+}
+
+.sidebar a{
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactForm {
+    margin-bottom: 20px;
+}
+
+.tripDropdowns{
+    margin-bottom: 30px;
+}
+
+.dropdown-location{
+    padding: 10px;
+}
+
+.dropdown-duration{
+    padding: 10px;
+}
+
+footer{
+    height: 80px;
+    background-color: #006F66;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px auto;
+}
